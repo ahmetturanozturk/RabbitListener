@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A1C2FD96-1402-4C0A-83AB-CDC110B109B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.RabbitListener.NUnitTests", "Services\Services.RabbitListener.NUnitTests\Services.RabbitListener.NUnitTests.csproj", "{3EE941DE-5639-4587-97A4-7BDD62E2C1C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BBC417C9-B222-4F19-8694-C3575374682D}"
+	ProjectSection(SolutionItems) = preProject
+		Services\docker-compose.yml = Services\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitListener.Shared", "Services\Services.RabbitListener.RabbitMQ\RabbitListener.Shared.csproj", "{A2A49090-DFA2-48EA-B6DE-48DCBC8AEA4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.RabbitListener.Consumer", "Services\Services.RabbitListener.Consumer\Services.RabbitListener.Consumer.csproj", "{420183A8-D67E-48D0-8BF6-A6FEC739E1C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.RabbitListener.Publisher", "Services\Services.RabbitListener.Publisher\Services.RabbitListener.Publisher.csproj", "{32C26D0A-6707-44EB-BC7D-64F2D38B28D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{739943A8-1EC9-4AA7-96CC-75232C25C50B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EE941DE-5639-4587-97A4-7BDD62E2C1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE941DE-5639-4587-97A4-7BDD62E2C1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE941DE-5639-4587-97A4-7BDD62E2C1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE941DE-5639-4587-97A4-7BDD62E2C1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A49090-DFA2-48EA-B6DE-48DCBC8AEA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A49090-DFA2-48EA-B6DE-48DCBC8AEA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A49090-DFA2-48EA-B6DE-48DCBC8AEA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A49090-DFA2-48EA-B6DE-48DCBC8AEA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{420183A8-D67E-48D0-8BF6-A6FEC739E1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420183A8-D67E-48D0-8BF6-A6FEC739E1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420183A8-D67E-48D0-8BF6-A6FEC739E1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420183A8-D67E-48D0-8BF6-A6FEC739E1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C26D0A-6707-44EB-BC7D-64F2D38B28D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C26D0A-6707-44EB-BC7D-64F2D38B28D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C26D0A-6707-44EB-BC7D-64F2D38B28D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C26D0A-6707-44EB-BC7D-64F2D38B28D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EE941DE-5639-4587-97A4-7BDD62E2C1C0} = {A1C2FD96-1402-4C0A-83AB-CDC110B109B6}
+		{A2A49090-DFA2-48EA-B6DE-48DCBC8AEA4A} = {739943A8-1EC9-4AA7-96CC-75232C25C50B}
+		{420183A8-D67E-48D0-8BF6-A6FEC739E1C3} = {A1C2FD96-1402-4C0A-83AB-CDC110B109B6}
+		{32C26D0A-6707-44EB-BC7D-64F2D38B28D2} = {A1C2FD96-1402-4C0A-83AB-CDC110B109B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E13AFD74-E253-4AFC-8D29-B6AA5FB2FF9C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,51 @@
+version: '3.4'
+
+services:
+  publisher:
+    build: 
+      context: .
+      dockerfile: "./Services.RabbitListener.Publisher/Dockerfile"
+    restart: always
+    depends_on:
+      - "rabbitmq"
+      - "consumer"
+    networks:
+      - my-network
+    healthcheck:
+      test: rabbitmq -q ping
+      interval: 30s
+      timeout: 30s
+      retries: 3
+
+  consumer:
+    build:
+      context: .
+      dockerfile: "./Services.RabbitListener.Consumer/Dockerfile"
+    restart: always
+    ports:
+    - "5285:80"
+    depends_on:
+      - "rabbitmq"
+    networks:
+      - my-network
+
+  rabbitmq: # login guest:guest
+    image: rabbitmq:3-management
+    hostname: "rabbitmq"
+    labels:
+      NAME: "rabbitmq"
+    container_name: "rabbitmq"
+    ports:
+    - "6671:5671"
+    - "6672:5672"
+    - "25672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_PASS:turan
+      - RABBITMQ_DEFAULT_USER:ozturk
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    external:
+      name: my-network

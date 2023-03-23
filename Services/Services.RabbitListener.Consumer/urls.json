@@ -1,0 +1,177 @@
+[
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://arogames.net",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://mynet.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://gmail.net",
+    "StatusCode": "Bilinen böyle bir ana bilgisayar yok. (gmail.net:80)"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "microsoft.com",
+    "StatusCode": "An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set."
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://google.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://testdenemetest.net",
+    "StatusCode": "Bilinen böyle bir ana bilgisayar yok. (testdenemetest.net:80)"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://yandex.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://google.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://arogames.net",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://yandex.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://mynet.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://gmail.net",
+    "StatusCode": "Bilinen böyle bir ana bilgisayar yok. (gmail.net:80)"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "microsoft.com",
+    "StatusCode": "An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set."
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://testdenemetest.net",
+    "StatusCode": "Bilinen böyle bir ana bilgisayar yok. (testdenemetest.net:80)"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://yandex.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://testdenemetest.net",
+    "StatusCode": "Bilinen böyle bir ana bilgisayar yok. (testdenemetest.net:80)"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://google.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://arogames.net",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "microsoft.com",
+    "StatusCode": "An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set."
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://mynet.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://gmail.net",
+    "StatusCode": "Bilinen böyle bir ana bilgisayar yok. (gmail.net:80)"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "microsoft.com",
+    "StatusCode": "An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set."
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://gmail.net",
+    "StatusCode": "Bilinen böyle bir ana bilgisayar yok. (gmail.net:80)"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://testdenemetest.net",
+    "StatusCode": "Bilinen böyle bir ana bilgisayar yok. (testdenemetest.net:80)"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://yandex.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://google.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://arogames.net",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://mynet.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://mynet.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://testdenemetest.net",
+    "StatusCode": "Bilinen böyle bir ana bilgisayar yok. (testdenemetest.net:80)"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://yandex.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://google.com",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://arogames.net",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://arogames.net",
+    "StatusCode": "OK"
+  },
+  {
+    "ServiceName": "RabbitListener",
+    "Url": "http://mynet.com",
+    "StatusCode": "OK"
+  }
+]

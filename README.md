@@ -61,17 +61,9 @@ View from browser
 http://localhost:5285/urls.json
 
 or
-
+```bash
 docker exec -it {CONTEINER_ID} /bin/sh
 cd wwwroot
 cat urls.json
-  
-## Testler
-
-Testleri çalıştırmak için aşağıdaki komutu çalıştırın
-
-```bash
-  npm run test
 ```
-
   

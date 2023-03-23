@@ -13,7 +13,7 @@ This project is a sample project related to RabbitMQ.
 - Docker, Docker Compose
 - RabbitMQ
   
-## Bilgisayarınızda Çalıştırın
+## Run
 
 Clone project
 
